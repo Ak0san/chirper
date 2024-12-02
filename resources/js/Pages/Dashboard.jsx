@@ -268,7 +268,7 @@ export default function Dashboard() {
                         <div className="social-links">
                             <a href="#" className="social-icon"><i className="fab fa-facebook"></i></a>
                             <a href="#" className="social-icon"><i className="fab fa-twitter"></i></a>
-                            <a href="#" className="social-icon"><i className="fab fa-instagram"></i></a>
+                            <a href="#" className="social-icon">A<i className="fab fa-instagram"></i></a>
                         </div>
                     </div>
                 </footer>
