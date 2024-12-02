@@ -32,7 +32,7 @@ export default function Dashboard() {
                     <div id="heroCarousel" className="carousel slide" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="10000">
                         <div className="carousel-inner text-center">
                             <div className="carousel-item active first-line:text-center">
-                                <img src="/images/bike-banner.jpg" className="d-block w-100" alt="" />
+                                <img src="/images/wallpaper/bike2.jpeg" className="d-block w-100" alt="" />
                                 <div className="carousel-caption">
                                     <h1 className="hero-title">Discover Top Bike Parts</h1>
                                     <p className="hero-description">Enhance your riding experience with the best components. Explore our collection of bike parts designed for durability and performance.</p>
@@ -40,7 +40,7 @@ export default function Dashboard() {
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src="/images/bike2.jpeg" className="d-block w-100" alt="Bike 2" />
+                                <img src="/images/wallpaper/jan-kopriva-UUTBij1CwZY-unsplash.jpg" className="d-block w-100" alt="Bike 2" />
                                 <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                     <h1 className="hero-title">Performance at Its Best</h1>
                                     <p className="hero-description">Ride with confidence using top-tier bike components tailored for performance and reliability.</p>
@@ -48,7 +48,7 @@ export default function Dashboard() {
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src="/images/bike3.jpeg" className="d-block w-100" alt="Bike 3" />
+                                <img src="/images/wallpaper/bike3.jpeg" className="d-block w-100" alt="Bike 3" />
                                 <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                     <h1 className="hero-title">Custom Build Your Ride</h1>
                                     <p className="hero-description">Personalize your bike with premium components and accessories for the perfect fit.</p>
@@ -56,7 +56,7 @@ export default function Dashboard() {
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src="/images/bike2.jpeg" className="d-block w-100" alt="Bike 2" />
+                                <img src="/images/wallpaper/young-adult-using-electric-bike-country-side.jpg" className="d-block w-100" alt="Bike 2" />
                                 <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                     <h1 className="hero-title">Performance at Its Best</h1>
                                     <p className="hero-description">Ride with confidence using top-tier bike components tailored for performance and reliability.</p>
@@ -64,7 +64,7 @@ export default function Dashboard() {
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src="/images/bike3.jpeg" className="d-block w-100" alt="Bike 3" />
+                                <img src="/images/wallpaper/lukas-smith-yrj94j0Bm5Q-unsplash.jpg" className="d-block w-100" alt="Bike 3" />
                                 <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                     <h1 className="hero-title">Custom Build Your Ride</h1>
                                     <p className="hero-description">Personalize your bike with premium components and accessories for the perfect fit.</p>
@@ -126,16 +126,16 @@ export default function Dashboard() {
                     <div className="header-underline"></div>
                     <div className="category-list">
                         <div className="category-item">
-                            <img src="/images/bike-frame.jpeg" alt="Frames" className="category-image" />
+                            <img src="/images/bike parts/1f964.webp" alt="Frames" className="category-image" />
                             <h3>Frames</h3>
                         </div>
                         <div className="category-item">
                             <img src="/images/bike-wheels.jpeg" alt="Wheels" className="category-image" />
-                            <h3>Wheels</h3>
+                            <h3>Wheel Set</h3>
                         </div>
                         <div className="category-item">
                             <img src="/images/accessories.jpg" alt="Accessories" className="category-image" />
-                            <h3>Accessories</h3>
+                            <h3>Bicycle Accessories</h3>
                         </div>
                     </div>
                 </section>
@@ -143,21 +143,21 @@ export default function Dashboard() {
                 {/* Featured Products */}
                     <section className="text-center featured-products">
                         <h2 className="section-title">Featured Products</h2>
-                        <div className="header-underline"></div>
+                        <div className="header-underline2"></div>
                         <div className="product-list">
                             {[
                                 {
                                     id: "shimano",
                                     name: "Shimano Groupset",
                                     price: "$200",
-                                    image: "/images/shimano.jpg",
+                                    image: "/images/bike parts/Cues2.png",
                                     details: "Shimano Groupset is known for its high performance and durability. Ideal for road and mountain biking.",
                                 },
                                 {
                                     id: "rockshox",
-                                    name: "Rockshox Fork",
+                                    name: "Rockshox Suspension",
                                     price: "$300",
-                                    image: "/images/rockshox.jpeg",
+                                    image: "/images/bike parts/r_feature_promo_3up_superdeluxecoil_v4.webp",
                                     details: "Rockshox Fork offers superior shock absorption and control, perfect for rugged terrains.",
                                 },
                                 {
@@ -169,9 +169,9 @@ export default function Dashboard() {
                                 },
                                 {
                                     id: "ragusa",
-                                    name: "Ragusa Parts",
+                                    name: "Ragusa Components",
                                     price: "$200",
-                                    image: "/images/ragusa.jpeg",
+                                    image: "/images/bike parts/Ragusa_XM700.jpg",
                                     details: "Ragusa Parts are lightweight, durable, and perfect for enhancing bike efficiency.",
                                 },
                                 {
@@ -182,17 +182,17 @@ export default function Dashboard() {
                                     details: "Dartmoor components offer a great balance of style and functionality for freestyle biking.",
                                 },
                                 {
-                                    id: "meroca",
-                                    name: "Meroca",
+                                    id: "Mountainpeak",
+                                    name: "Mountainpeak",
                                     price: "$350",
-                                    image: "/images/meroca.jpeg",
-                                    details: "Meroca provides premium-quality bike components for both professionals and enthusiasts.",
+                                    image: "/images/bike parts/28babbdb3d52aac5ce930ee271912964.jpg",
+                                    details: "Mountainpeak provides premium-quality bike components for both professionals and enthusiasts.",
                                 },
                                 {
                                     id: "maxxis",
                                     name: "Maxxis",
                                     price: "$300",
-                                    image: "/images/maxxis.jpeg",
+                                    image: "/images/bike parts/Forekaster_Camera_1.jpg",
                                     details: "Maxxis tires are designed for maximum grip and durability across diverse terrains.",
                                 },
                                 {
